@@ -1,9 +1,8 @@
 package model;
 
-public class convertToBinary {
+public class ConvertToBinary {
 	
 	public String toBinary (String x) {
-		System.out.println();
 		return x;
 	}
 	

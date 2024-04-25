@@ -1,8 +1,7 @@
 package model;
 
-public class convertToInteger {
+public class ConvertToInteger {
 	public String toInt (String x) {
-		System.out.println();
 		return x;
 	}
 }

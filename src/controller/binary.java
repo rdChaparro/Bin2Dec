@@ -1,10 +1,10 @@
 package controller;
 
-import view.menuBinary;
+import view.MenuBinary;
 
-public class binary {
+public class Binary {
 	public static void main(String[] args) {
-		menuBinary menuBinary = new menuBinary();
+		MenuBinary menuBinary = new MenuBinary();
 		menuBinary.menu();
 	}
 }
