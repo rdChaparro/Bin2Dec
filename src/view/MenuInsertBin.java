@@ -17,11 +17,11 @@ public class MenuInsertBin {
 		System.out.println("*".repeat(50));
 		System.out.println("Ingresa un numero binario valido:");
 		
-		int eleccion = scannerCall.nextInt();
+		String eleccion = scannerCall.next();
 		
 		System.out.println("*".repeat(50));
 		System.out.println("El numero en decimales es: \n" );
-		System.out.println(toInteger.toInt(Integer.toString(eleccion)));
+		System.out.println(toInteger.toInt(eleccion));
 		
 		binaryMenu.menu();
 		

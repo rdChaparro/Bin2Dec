@@ -18,11 +18,11 @@ public class MenuInsertDec {
 			System.out.println("*".repeat(50));
 			System.out.println("Ingresa un numero decimal valido:");
 			
-			int eleccion = scannerCall.nextInt();
+			String eleccion = scannerCall.next();
 			
 			System.out.println("*".repeat(50));
 			System.out.println("El numero en binario es: \n" );
-			System.out.println(tobinary.toBinary(Integer.toString(eleccion)));
+			System.out.println(tobinary.toBinary(eleccion));
 			
 			binaryMenu.menu();
 			

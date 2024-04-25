@@ -8,3 +8,7 @@ public class Binary {
 		menuBinary.menu();
 	}
 }
+
+
+// Resolver cuando el numero binario empieza por cero 
+// el residuo del ultimo numero sea 0
