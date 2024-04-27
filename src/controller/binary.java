@@ -1,9 +1,10 @@
 package controller;
 
+import errors.NoBinaryException;
 import view.MenuBinary;
 
 public class Binary {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws NoBinaryException {
 		MenuBinary menuBinary = new MenuBinary();
 		menuBinary.menu();
 	}
